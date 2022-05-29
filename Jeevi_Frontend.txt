@@ -1,0 +1,250 @@
+Service based companies
+
+	LIke TCS, CTS, Wipro, Accenture
+
+Product based companies
+
+	Google, Zoho, Amazon
+	
+	
+In IT we have two face
+
+	Front End
+	
+		Languages
+			HTML, CSS and Javascript
+			
+				Syntax and Rules 
+		
+		Frameworks
+		
+			jQuery, AngularJS, Angular, ReactJs, VueJS			
+				
+	
+	
+	Back End
+	
+		Languages
+			java, .net, python and Node
+		
+		Framework
+			
+			Spring, WebAPI,dJango
+		
+		
+	DB
+	
+		SQL Server, MySql, postgres, MongoDB
+		
+	Front End 
+
+
+		HTML  -> Presentation
+		
+		CSS  -> Presentation
+		
+		Javascript -> Interaction
+		
+		
+	Browser
+	
+		Chrome
+			102 => JS latest update			
+		
+		Opera
+		
+		Edge
+		
+			36 => JS latest update not there
+		
+		Safari
+		
+		
+	Every browser has a Browser Engine
+	
+	
+		Browser Engine
+		
+			Presentation Engine
+			
+				HTML and CSS
+			
+			JS Engine
+	
+		
+		
+	
+	HTML
+	
+		Hypertext markup language
+		
+		
+		HTML 5
+		
+		HTML is not a programming Language
+		
+		Tag or syntax based language
+		
+		
+		A file with Extenstion .html => will be a page
+		
+		
+		Page should have a core HTML Struture
+		
+		What is a Tag?
+		
+			<tag> <!-- Content --> </tag>
+			
+			A tag will have start and end tags
+			
+			Some tag has exceptions, it will have self closing
+			
+				<tag /> 
+				
+			A start tag can have attributes
+			
+				<tag id="thisIsMYFirstTage" name="" class style value   > </tag>
+			
+			
+			Tag
+			
+				Presentation Tag
+				
+				Interaction Tag
+				
+			Example
+			
+				<p id="myPTag" > This is my content </p>
+				
+				<p id="myPTag" > This is my content </p>
+				
+				<p id="myPTag" name="" > This is my content </p>
+				
+				<p id="myPTag" > This is my content </p>
+				
+				
+		Core
+			
+			<html>	
+			
+				<head>
+					<title> Tab Name </title>
+				</head>
+				
+				
+				<body>
+				
+				</body>
+			
+			</html>
+			
+		
+		
+	
+	Default tags
+	
+		Headings
+		
+			<h1> content </h1>
+			<h2> </h2>
+			<h3> </h3>
+			
+			
+			
+			<h6> </h6>
+			
+			
+		Paragraph
+		
+			<p> </p>
+			
+		Image
+		
+			<img src="path" />
+			
+			Path -> can be a local path
+				or it can be from a network (http or https)
+		
+		
+		List tag
+		
+			Ordered List
+			
+				<ol>					
+					<li> Music </li>
+					<li> Badminton </li>
+				</ol>
+				
+			Unordered List
+			
+				<ul>				
+					<li> Music </li>
+					<li> Badminton </li>				
+				</ul>
+			
+			
+		Table
+		
+		
+			<table>
+				<thead>
+					<tr>
+						<th> Year </th>
+						<th> Degree </th>
+						<th> Percentage </th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td> sdfsdf </td>
+						<td> sdfsdf </td>
+						<td> sdfsdf </td>
+					</tr>				
+				</tbody>			
+			</table>
+			
+	Inline Tags
+	
+	
+		<strong> </strong>
+		
+		
+		
+	Interaction Tags or Form tags
+	
+		Input
+		
+		<input />
+		
+		
+		<input type="text"/> =>  We can enter any type of input Text + number 
+		
+		
+		<input type="number" /> => User can enter only numbers
+		
+			
+	Additional tags
+	
+		<hr />
+		
+			 it will create a horizontal line
+		
+		<br />
+		
+			It will give a break to the current line
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
