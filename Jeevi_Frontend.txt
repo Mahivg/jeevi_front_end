@@ -208,6 +208,9 @@ In IT we have two face
 	
 		<strong> </strong>
 		
+		<em> </em>
+		
+		
 		
 		
 	Interaction Tags or Form tags
@@ -222,6 +225,19 @@ In IT we have two face
 		
 		<input type="number" /> => User can enter only numbers
 		
+	Link
+	
+		Anchor tag
+			
+			<a href="path to a file or path to a website" />
+			
+			<a href="about.html" />
+			
+			<a href="https://www.google.com" />
+			
+			
+			<a href="https://www.google.com" target="_blank" /> => Blank will open in a new Tab
+		
 			
 	Additional tags
 	
@@ -234,10 +250,82 @@ In IT we have two face
 			It will give a break to the current line
 		
 		
+	There are types of elements
+
+
+		1. Block elements
+		
+		2. Inline Elements
+		
+		3. Inline-Block Elements
+		
+	
+	Block Elements
+		
+		1. default styling		
+			display: block;
+			
+		2. it will take entire width
+			(irrespective of content)
+			
+		3. It will always start in a new line
+		
+		4. with custom styling we can change the height and width of an element
+		
+			Ex: P, Heading tag
+		
+	Inline Elements
+	
+		1. No default styling about display
+		
+		2. It will take only content width
+		
+		3. Starting position based on previous elements		
+		
+		4. with custom styling we cannot change the height and width of an element 
+		
+		Ex: Anchor tag, Table
 		
 		
+	Inline-Block Elements
+	
+		1. all properties of inline elements
 		
+		2. height and widht can be customized		
 		
+		 Ex: Image
+		 
+		 
+
+	Grouping tags 
+	
+		division
+		
+			<div> </div> => smaller groups => block
+			
+		Sections
+		
+			<section> </section> => Large Number of group => Block
+		
+		<div id="nav">
+		
+		<div>
+		
+		<navbar>
+			<div>
+			</div>
+		
+		</navbar>
+		
+		<header>
+		
+		</header>
+		
+		<main>
+		
+		</main>
+		
+		div id="header"
 		
 		
 		
