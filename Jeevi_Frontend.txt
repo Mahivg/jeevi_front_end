@@ -295,6 +295,14 @@ In IT we have two face
 		
 		 Ex: Image
 		 
+
+	<span>
+		<div>
+		
+		</div>
+	
+	</span>
+		 
 		 
 
 	Grouping tags 
@@ -306,6 +314,10 @@ In IT we have two face
 		Sections
 		
 			<section> </section> => Large Number of group => Block
+			
+		Span
+		
+			To wrap or group inline elements
 		
 		<div id="nav">
 		
@@ -327,9 +339,161 @@ In IT we have two face
 		
 		div id="header"
 		
+
+	CSS
+	
+		Cascading Styling Sheet
+		
+		Its not a programming language
+		
+		Syntax based 
+		
+		CSS used to style our web pages and layout design
+		
+		CSS Basic Syntax :
+		
+			selector {
+				style-name1 : style-value1;
+				style-name2 : style-value2;
+			}
 		
 		
+		How to bring our custom CSS to out HTML page:
 		
+			
+			1. Inline Styling
+			
+				<p style="styleName: styleValue; style2: value2;" > </p> => specific to that element
+			
+			2. Internal Styling
+			
+				<html>
+					<head>
+						<style>
+							selector {
+								style-name1 : style-value1;
+								style-name2 : style-value2;
+							}						
+						</style>
+					</head>
+					<body>
+						
+					</body>
+				</html>
+			
+			3. External Styling
+			
+				we have to create a file
+				
+					a file with extension .css
+					
+						my-style.css
+						
+						<head>
+							
+							<link rel="stylesheet" href="./filepath" />
+						</head>
+			
+			
+			
+			
+			How to select an element
+			
+				 Selector
+				 
+					1. Inline Style =
+					
+					2. Element Selector
+					
+						p, h2, div {
+							style: value;
+						}
+						
+					3. attribute selector
+					
+					<p id="myPTag" name="nameOfP"> Content </p>
+					
+					
+					p[id="myPTag"] {
+						style: value;
+					}
+					
+					#myPTag {
+						style: value;
+					}
+					
+					p[name="nameOfP"] {
+						style: value;
+					}
+				
+				
+					input[type="number] {
+						style : value;
+					}
+					
+			4. Class selector
+			5. Pseudo selector
+			
+			
+	Styles: 
+	
+		Text color;
+		
+			color: value;
+			
+				For Color value can be any one of the following
+				
+				
+					Named color
+						red, green, blue, yellow,
+						colour shade will be based on borwser's configuration
+						
+						
+					We have to generate color
+					
+						Primary colours
+						
+							Red, Green and Blue
+							
+							Painting rules
+							
+								Colour Codes
+								
+									RGB
+										Consider we have a bucket of each colour
+											
+											Starting 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f
+											
+									RGB =>	000 => black
+									
+										 => 0af => this can be a colour
+										 
+										=> f00 => Red
+										=> 0f0 => Green
+										
+										=> 00f => blue
+									
+									RGB => fff => white
+									
+									RGB => 000000
+									
+									R => ff0000;
+									
+									color: #aaffaa;
+									
+						(0,255)
+							color: rgb(100,235,100);
+									
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		
 		
 		
