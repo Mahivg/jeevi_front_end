@@ -432,10 +432,65 @@ In IT we have two face
 					}
 					
 			4. Class selector
+			
+				{
+					color: red;
+					style1: value1;
+					style2: value2;
+				} => these styles may be used in many places
+				
+				.name {
+					color: red;
+					style1: value1;
+					style2: value2;
+				}
+				
+				.name1 {
+					color: blue;
+					style1: value1;
+					style2: value2;
+				}
+				 now name is the css class
+				 
+				 <p class="name name1 name2 name3"> Content </p>
+				
+				
+			     <p> content </p>
+				 
+				 p {
+					color: red !important; // this will force browser to avoid overriddens
+				 
+				 }
+				
 			5. Pseudo selector
 			
+	CSS Units
+	
+	 absolute units
+		pixel (px) => single pixel from the screen resolution
+		
+		percentage (%) => 
+	
+	relative units
+		rem
+		
+		em
+			
+			
+	Specificity:
+	
+		How easily browser will identify an element to apply our custom CSS
+	
+		0 100
+		Specificity		  Score
+		Inline Element 	 - > 0
+		#myTag		     =>  100
+		Class selector	 -> 10	 
+		element Selector -> 1
 			
 	Styles: 
+	
+		All CSS will work based on joining all style
 	
 		Text color;
 		
@@ -446,7 +501,7 @@ In IT we have two face
 				
 					Named color
 						red, green, blue, yellow,
-						colour shade will be based on borwser's configuration
+						colour shade will be based on browser's configuration
 						
 						
 					We have to generate color
@@ -483,6 +538,86 @@ In IT we have two face
 									
 						(0,255)
 							color: rgb(100,235,100);
+							
+							color: rgba(100,235,100,0.5);
+		
+	
+	font-size
+	
+		will decide ur content text size
+		
+			font-size: 20px;
+			
+			font-family: 'name of the font' ;
+			
+				Font names will be available in browser
+				
+				If we custom fonts we need to import it from outside
+				
+					Ex: fonts.google.com
+					
+	font-weight
+	
+		thickness of ur text
+		
+		font-weight: bold;(800)
+		
+			font-weight can be given in number count
+			
+				100 ..... 900;
+	text-decoration
+	
+		underline
+					
+			text-decoration: underline;
+			
+	font-style:
+	
+		font-style: italic;
+		
+	Text alignment
+	
+		text-align: left | right | center | justify;
+
+	Back ground color
+	
+		background-color: #fdd8d8; ( any color value)
+				
+				
+	Line Height
+	
+		line-height: 1;
+		
+		line-height: 2;
+		
+	Distance in word characters
+	
+		letter-spacing: 1;
+		
+	List item styling
+	
+	Ordered List
+	
+		list-style:  (auto | decimal) | lower-romen | lower-alpha | upper-romen | upper-alpha;
+		
+	Unordered List
+	
+		list-style: (auto | disc) | dotted | circle | square;
+		
+		
+	Controlling height and width of an element
+	
+		height: 100px | 40% | 20vh | 2rem | 3em;
+		
+		width:  100px | 40% | 20vw | 2rem | 3em;
+		
+			vh => viewport-height;
+			vw -> viewport-width;
+		
+	
+		
+		
+					
 									
 			
 			
