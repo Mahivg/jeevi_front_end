@@ -11,3 +11,42 @@ h2, #thirdH3 {
 #myList2 {
 	list-style: circle;
 }
+
+#backImgEx {
+		background: url("https://media.gettyimages.com/photos/indias-mahendra-singh-dhoni-runs-on-the-pitch-during-the-2019-cricket-picture-id1151430063?s=612x612");
+		
+		height: 200px;
+}
+
+h1, h2{
+	border: 1px solid red;
+}
+
+
+.fbbtn {
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: center;
+	border-top: 1px solid #aeaeae;
+	width: 300px
+}
+
+.fbbtn1 {
+	background-color: #42b72a;
+	color: white;
+	font-weight: bold;
+	border: none;
+	padding: 10px 15px;
+	
+	margin-top: 20px;
+	border-radius: 6px;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+

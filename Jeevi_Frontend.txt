@@ -567,7 +567,7 @@ In IT we have two face
 				100 ..... 900;
 	text-decoration
 	
-		underline
+			for underline
 					
 			text-decoration: underline;
 			
@@ -582,6 +582,8 @@ In IT we have two face
 	Back ground color
 	
 		background-color: #fdd8d8; ( any color value)
+		
+	Backgroud: 
 				
 				
 	Line Height
@@ -613,6 +615,88 @@ In IT we have two face
 		
 			vh => viewport-height;
 			vw -> viewport-width;
+			
+	text-transform
+	
+	
+		<p> About Me </p>
+		
+		p {
+			text-transform: lowercase | uppercase | capitalize ;
+		}
+		
+		
+
+	Element Box:
+	
+		Having
+		
+		
+			Content
+			
+				will be in blue color
+			
+			Border
+			
+			
+		Padding
+		
+			Distance between content border
+			
+			padding: 10px; which means padding top 10, paading bottom 10, paading left 10, padding right 10;
+			
+			padding-right: 10px;
+			
+			padding-left: 10px;
+			
+			padding: top right bottom left;
+			
+			padding: 10px 15px 20px 10px;
+			
+			padding: 10px 15px;
+					
+					top+ bottom right+ left;
+			
+			In browser u can see this as light green color
+		
+		
+		Margin
+		
+			Distance between Your element border to neighbours
+			
+			margin: 10px; all side
+			
+			margin: 10px 15px; top+bottom right + left;
+			
+			margin will be visible as orange color in the browser
+		
+		
+	If u want to create a distance between two elements
+	
+		margin: 
+		
+	
+	if we want distance within content and border
+	
+	 padding
+	 
+	Always border is invisible
+	
+		border: Size of the border   type of the border  color of the border;
+		
+		border: 1px solid red; all side will create border
+		
+		border-top: 1px solid red;
+		
+		
+		border-radius: 10px;
+		
+		
+		
+		
+	
+	
+		
 		
 	
 		
