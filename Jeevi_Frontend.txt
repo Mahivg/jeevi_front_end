@@ -693,9 +693,70 @@ In IT we have two face
 		
 		
 		
+	Box-shadow
+	
+		box-shadow: horizontal vertical blur spread shadow-color;
+		
+		box-shadow: -10px 15px 10px 5px #red;
+		
 		
 	
+	position:
 	
+		This property will control element rendering position
+		
+		
+		position: static | fixed | absolute | relative;
+		
+		position: static;
+		
+			it will follow defualt browser rendering
+			
+		position: fixed;
+
+			it will detatch from browser DOM tree it will be attached to View Port;
+			
+		There are some position CSS styles
+		
+			top, bottom, right and left;			
+			
+			p {
+				position: fixed;				
+			}
+			
+			
+		position: relative;
+		
+			it will detatach from Tree but it wont attach to view port
+			
+			
+			Instead it will be positioned from its own place;
+			
+			top right left bottom
+			
+			
+		position: absolute;
+		
+			It should be used within a relative positioned parent. Otherwise by defualt body tag is a relative positioned element
+			
+			div style="position:relative;"			
+			
+				p style="position: absolute"
+				
+			
+			
+			
+			
+			
+		
+			
+			
+			
+			
+			
+
+
+		
 		
 		
 	
