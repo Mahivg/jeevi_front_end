@@ -706,7 +706,7 @@ In IT we have two face
 		This property will control element rendering position
 		
 		
-		position: static | fixed | absolute | relative;
+		position: static | fixed | absolute | relative; // | initial (Browser default) | inherit (Immediate Parent)
 		
 		position: static;
 		
@@ -744,8 +744,84 @@ In IT we have two face
 				p style="position: absolute"
 				
 			
+	Display: 
+
+
+		display: block | inline | inline-block;
+		
+		button {
+			display: block;
+		}
+		
+		display: none; // It will remove the element from DOM Tree
+			
+		
+			visibility: hidden | visible;
 			
 			
+		Layout:
+		
+			display: table;
+				display: table-row;
+				display: table-cell;
+			
+			<table>
+			
+				<tr>
+				
+					<td>
+					
+			div display: table; 
+			
+				div display: table-row;
+				
+					div display: table-cell;
+					
+					div display: table-cell;
+					
+					div display: table-cell;
+					
+					
+		display: flex;
+		
+			div 
+				display: flex;
+				
+				flex-direction: row | column | row-reverse | column-reverse; 
+				// Direction of child elements arrangement
+				
+				
+				justify-content: 
+				
+					Deals with main-axis
+					
+					flex-direction:row | row-reverse
+					
+						main axis is X
+						
+						justify-content: flext-start( Defualt)
+								flex-end  | center | space-between | space-around | space-evenly
+					
+					
+					
+				align-items:
+				
+					Deals with Cross axis 
+					
+					flex-direction: row | row-reverse
+					
+						cross axis is Y
+						
+						align-items: flex-start | flex-end | center
+			
+				div
+				div
+				div
+		
+		Advanced version of Flex
+		
+		display: grid;
+		
 			
 			
 		
