@@ -616,6 +616,13 @@ In IT we have two face
 			vh => viewport-height;
 			vw -> viewport-width;
 			
+		min-width: 50px; it will render with 50px and responds with content width
+		
+		min-height: 50px;
+		
+		max-width: 100px; the element only responds till max width
+		max-height: 100px;
+			
 	text-transform
 	
 	
@@ -817,12 +824,45 @@ In IT we have two face
 				div
 				div
 				div
+				
+			flex-wrap: nowrap; // parent wont give space-around
+			flex-wrap : wrap; // it will additional
 		
 		Advanced version of Flex
 		
 		display: grid;
 		
+	
+	
+		overflow
+		
+			overflow: x-axisvalue y-axisvalue;
 			
+			overflow-x: value
+			overflow-y: value;
+			
+				auto | scroll | hidden;
+	
+
+		transform:
+		
+			it will change the size or eleme
+			
+			transform: rotate(100deg)
+			
+			transform: scale(value);
+			
+			 default scales value 1;
+			 
+			 transform: scale(1.5);
+			 
+			transform: translate(X, Y);
+			
+				transform: translate(10px, 50%);
+				
+				by default transform orgin starting point of element
+				
+				transform-orgin: center;
 			
 		
 			
