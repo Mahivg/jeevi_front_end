@@ -865,26 +865,140 @@ In IT we have two face
 				transform-orgin: center;
 			
 		
-			
-			
-			
-			
-			
-
-
-		
-		
-		
 	
+	Pseudo Selectors
+	
+		a, button, div
 		
+		a -> 
 		
+		a:visited {
+			color: #red;
+		}
+		
+		a:hover {
+			color: blue;
+		}
+		
+		#myDiv:hover {
+		
+		}
+		
+			
+		cursor: pointer | not-allowed;	
+
+		Hierarchy Wise 
+		
+			div class="card"
+			
+				p
+			
+				div
+					div
+				
+					img 					
 					
-									
+					p
+					
+					h1
+				div
+					
+					p
+					
+					h2
+				h2
+			
+
+
+		.card {
+		
+		}
+		
+		
+		immediate child
+		
+			.card > div {
+			
+			}
+		
+		
+			.card > div:first-child {
+			
+			}
+				
+			.card > div:last-child {
+			
+			}
+			
+			
+			.card > div:nth-child(3) {
+				
+			}
+			
+			.card > tr:nth-child(odd) {
+				
+			}
+			
+			.card > tr:nth-child(even) {
+				
+			}
+			
+			.card > div:first-child > img {
+			
+			}			
 			
 			
 			
+		Combination
+		
+			div class="class1 class2 class3"
+			
+			p class="class1"
+			
+		
+		.class1 {
+		
+		}
+		
+		.class1 .class2 {
+		}
+		
+		div.class1.class2 {
+		
+		}
+		
+		p.class1 {
+		
+		}
+		
+		
+		
+	Sibilings
+	
+		div 
+		
+			div class="cla"
+			p
+			div
+			div
+			h1
+		
+		.cla > * {
+
+		}
+		
+		
+	universal selector
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
 			
 			
+	::before, ::after
+	
+	
 			
 			
 			

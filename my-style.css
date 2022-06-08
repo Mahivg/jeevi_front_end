@@ -149,9 +149,26 @@ h1, h2{
 	color: green;
 	text-align: center;
 	border: 1px solid black;
-	transform: rotateX(100deg);
 }
 
+.my-box::before {
+	width: 3px;
+	background-color: red;
+	height: 100%;
+	content: "Text";
+}
+
+.my-box::after {
+	width: 3px;
+	background-color: red;
+	height: 100%;
+	content: "Text";
+}
+
+button:hover {
+	cursor: pointer;
+	color: green;
+}
 
 
 
