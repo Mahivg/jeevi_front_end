@@ -149,20 +149,12 @@ h1, h2{
 	color: green;
 	text-align: center;
 	border: 1px solid black;
+	cursor: pointer;
+	transition: transform 0.3s ease-in;
 }
 
-.my-box::before {
-	width: 3px;
-	background-color: red;
-	height: 100%;
-	content: "Text";
-}
-
-.my-box::after {
-	width: 3px;
-	background-color: red;
-	height: 100%;
-	content: "Text";
+.my-box:hover {
+	transform: scale(1.5);
 }
 
 button:hover {

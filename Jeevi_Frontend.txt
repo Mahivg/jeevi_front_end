@@ -999,9 +999,233 @@ In IT we have two face
 	::before, ::after
 	
 	
+	transition
+	
+		transition: transition-property transition-delay transition-mode;
+		
+		
+		transition: width .2s ease-in;
+			
+
+
+	Animation:
+	
+		keyframes
+		
+			0 to 100% => we have to write styles
+			
+
+
+	global-styles
+	
+	
+		global-styles.css
+		
+			* {
+				margin: 0;
+				padding: 0;				
+			}
+			
+			.p-0 {
+				padding: 0px;
+			}
+
+			
+			.m-15 {
+				margin: 15px;
+			}
+
+
+			.mt-20 {
+				margin-top: 20px;
+			}
 			
 			
+		login.css
+		
+			login-btn {
+			}
+
+
+	third-party libraries
+	
+		1. Bootstrap
+			utilities
 			
+			.m-2 => full side margin of 2 units
+			.mt-2 => margin top of 2 units
+			.ms-2 => left side 2 units
+			.mx-2 => left and right 2 units
+			.my-2 => top and bottom 2units
+			same for padding
+			.p-2 
+			
+			buttons
+			
+				btn- primary, success, info, warning, light, dark, danger
+				
+			text
+				text-primary
+				
+			forms
+			
+				form-control
+				
+			Layout
+			
+				col
+				
+					col-1 t0 col-12
+					
+					always total should be within 12 or 12.\
+					
+				container, container-fluid
+				
+				
+				
+		
+		2. Angular material (Google)
+	
+
+
+
+	Media Queries
+	
+		styles based on screen width
+		
+		@media screen(max-width: 1024px) {
+		
+			.login-container {
+				background-color: red;
+			}
+		}
+
+		@media screen and (max-width: 1440px) {
+		
+			.login-container {
+				background-color: blue;
+			}
+		}
+
+
+	in bootstrap they divided the screen in to various sizes
+	
+		xs sm md lg xl 
+		
+		flex
+			.d-flex
+			.d-sm-flex
+		col
+			col-6
+			
+			col-sm-6 ( from small screen break point it will be 6 colum) 576px
+			
+			col-md-5
+
+
+	.card {
+		display: block;
+	}
+
+
+	.card > .card-header {
+		display: none;
+	}
+	
+	.card > .card-header > p {
+		font-size: 14px;
+	}
+
+	.card > .card-header  h1{
+		display: none;
+		
+		
+	SCSS and SASS
+
+	my-styles.scss or my-styles.sass
+	
+	I have to use a converter to convert scss to css and then add it to my head in html
+	
+	scss
+	varibles
+	$black: #000;
+	.card {	
+		display: block;
+		.card-header {
+			display: none;
+			h1 {
+				font-weight: bold;
+			}
+			
+			p {
+				font-size: 14px;
+				color: $black;
+			}
+		}
+	}
+	
+	sass is made up of code language called 'Ruby'
+	
+	.card
+		display: block
+		.card-header 
+			display: none
+			p 
+				font-size: 14px
+	
+	
+	
+	Gulp.js -> library => task runner
+	
+		scss to css
+		
+		sass to css
+		
+	Bower
+	
+
+
+	they can also do minification
+		they can do for Css and JS
+		
+			filename.min.css or filename.min.js
+	
+		reducing file size by removing comments, spaces
+		
+		.card > .card-header
+		
+		.aa> .abc
+	
+	
+	Framework
+	
+		top to bottom configuration always there
+	CSS units 
+		
+	
+		rem and em
+		
+		Html 
+		
+			font-size: 14px;
+			
+		base of rem:
+		
+			font-size: 1rem; 1.5rem: 21px;
+			
+		EM:
+		
+			div font-size: 16px;
+				p 
+					font-size: 1em;
+					
+					
+	
+		
+		
+	
+	
+	
 			
 			
 		
