@@ -1221,16 +1221,229 @@ In IT we have two face
 					
 					
 	
+	
+	Javascript:
+	
+		Language of browser
+		
+		Europieon Computer Manufacturers Association (ECMA)
+		
+		ES6
+
+	
+	How to brring JS in our Page
+	
+		1. Internal
+			<head>
+				<script>
+				
+					console.log("Test");
+				
+				</script>
+			
+			</head>
+			or
+			end of body tag
+		
+		2. External File
+			local
+			create a file with extension .js
+			<script type="text/javascript" src="./my-js.js"> </script>
+			
+			cloud
+			
+				src will be https or http
+				
+				
+	
+	
+	Data
+	
+		number => 1, 1.01, -1, 1.989998
+		
+		string => "Text1u9u98218hdihua___1@@", 'Text1u9u98218hdihua___1@@', `Text1u9u98218hdihua___1@@` (Backtick)
+		
+		boolean => true or false
+		
+		Date
+		
+		null 
+		
+		undefined
+		
+		NaN => not a number
+		
+		Object => { key: value, key1: value1 } => JavaScript Object Notation ( JSON )
+		
+		Array 
+		
+		User defined Objects
+		
+	Use 'typeof' to find the type the varaible
+	
+	
+	loosly typed programming language or typeless programming language
+	
+	var name 
+	
 		
 		
+	Variables
+	
+		"my Name is magesh"
+		
+		2 part
+
+			declare a variable
+			
+				keywords to create or declare variale
+				
+					var, let and const
+					
+					var name;
+			
+			variable defenition
+			
+				name = "my Name is magesh";
+		
+			var name = "jeevi";
+			name = "arasu";
+			name = "jackie";
+			
+			let name = "jeevi"
+			name = "arasu";
+			name = "jackie";
+			
+			
+			
+			const name = "jeevi";
+			name = "arasu"; // name declared as const, cannot be changed
+		
+		{
+			var name = 'mahi';
+		
+			sasoa
+			
+			askmlas
+			
+			
+			askdmlas
+		
+			loop {
+				let name = "mahesh"
+			}
+			
+			
+			if			
+			
+		
+		}
 	
 	
+	var num1 = //get it from user;
 	
+	var num2 = 12;
+	
+	console.log(num1 + num2);
+	num1 = null;
+			
+			
+	rules for a variable name
+	
+		meaningful
+		
+		cannot be reserved word or a keywords
+		
+		should not contain any special characters (expect underscore)
+		
+		should not have space
+		
+		if u variable have mutliword
+		
+			we have to use camelCase
+			
+			var userName, user_name, username, USERNAME
+			
+		use upper case for const
+		
+			const PI = 3.14;
 			
 			
 		
+		var name = "Test";
+		
+		var num1 = 10;
+		
+		var isValid = true;
+		
+		var numArray = [10, 11, 12];
+		
+			index start from 0
+			
+				0 to lengnth of array -1
+				
+	    
+		var name = "jeevi"
+		
+		var age = 10;
+		
+		var myUser = {
+			"name" : "jeevi",
+			"age" : 10
+		}
+		
+		how to access the value from an object
+		
+			myUser.age => 10
+			
+			myUser["age"] => 10
+		
+	Type restrictions	
+	
+	
+	private String name;
+	this.name = "test";
+	this.name = 10;
+	
+	private String[] hobbies;
+	this.hobbies = new Array[]
+			
+		var num1 = getting value from user
+		var num2 = getting value from user
+		
+		console.log(num1 + num2);
+			type will be found out at run time
+			
+		var num1 = "test";
+		
+		num1 = 10.111;
+		
+		num1 = true;
+		
+		num1 = ["test"];		
+
+		num1 = ["test", 10, true];
+		
+		num1[2] = "tes2";
 		
 		
 		
 		
 		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
