@@ -1243,7 +1243,7 @@ In IT we have two face
 			
 			</head>
 			or
-			end of body tag
+			before end of body tag
 		
 		2. External File
 			local
@@ -1275,7 +1275,7 @@ In IT we have two face
 		
 		Object => { key: value, key1: value1 } => JavaScript Object Notation ( JSON )
 		
-		Array 
+		Array [1,2,3]
 		
 		User defined Objects
 		
@@ -1426,18 +1426,97 @@ In IT we have two face
 		
 		num1[2] = "tes2";
 		
+	
+	JS is single thread
+	
+	top to bottom
+	
+	
+	callbacks
+	
+	Functions
+	
+		fuctions are for executing mini task
 		
+		Function declaration
+			function expression
+				function FunctionName() {
+					const name = "magesh";
+					
+				}
+		
+		Function Call
+		
+			FunctionName();
+		
+		Function Arguments
+		
+		
+			function fName(arg1, arg2, arg3) {
+			
+				console.log(arg1);
+				
+			
+			}
+			
+			fName(1,2,3);
+		
+		function print() {
+			console.log("Date printed");
+		}
+		
+		
+		print();
+		
+		Function assignment
+		
+			var add = function(num1, num2) {
+				console.log(num1 + num2);
+			}
 		
 		
 		
 	
+		Student
+		
+			id, firstname, lastName, batch, // Properties
+			
+			Methods
+			getFullName(){
+				return firstName + "_" + lastName;
+			}
+			
+		we have to decide the blueprint
 
+	operators
+	
+		+ => for numbers it will add, and for string it will concat
+		
+				1 + 1 = 2
+				
+				"Str" + "_" + "str1" => Str_str1
+		
+		- => it will subscrct values
+		
+		* => multiplicaton
+				num1 * num2
+				
+		/ => division
+				num1 / num2;
+				
+		% => to find reminder
+		
+				4 % 2 = 0;
+				
+		= => assignment operator
+		
+		== => COmparion
 
-
-
-
-
-
+	Employee 
+	
+		id, name, joiningYear
+		
+		
 
 
 
