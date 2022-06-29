@@ -1517,8 +1517,61 @@ In IT we have two face
 		id, name, joiningYear
 		
 		
+		
+	conditons
+	
+	 if
+	 
+		truthy => true or a expression which resolves to true
+		
+			(comparison operators)
+			
+				1 == 1 => true
+				
+				2 > 1 => true
+				if(1) => true
+				
+				if('nonEmpty', {}) => true
+				
+				
 
 
+		falsy
+		
+			1 != 1 => false
+			
+			1 > 2 = false
+			
+			if(0) => false
+			
+			if('') => false
+			
+			if(null | undefined || NaN) => false
+			
+		! operator
+		
+			!truthy = false;
+			!falsy = true;
+						
+			!(1 == 1)
+		if(truthy) {
+
+		} else {
+			
+		}
+		
+		if(truthy1) {
+		
+		} else if(truthy2) {
+		
+		} else {
+		
+		}
+		
+	
+	Type comparison operator
+	
+		===
 
 
 
