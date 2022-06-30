@@ -35,15 +35,26 @@ console.log(numArray);
 //     console.log(numArray[i]);
 // }
 
+var studArray = [{
+    name: 'Test',
+    age: 10
+}];
+
+// for(let stud in studArray) {
+//     // console.log(`${objKey} - ${stud[objKey]}`);
+//     console.log(stud);
+// }
+
+
 // for(let num in numArray) {
 //     console.log(num);
 // }
 
 
 // it should be iterated completely
-// numArray.forEach(function(num){
-//     console.log(num);
-// });
+numArray.forEach((num) => {
+    console.log(num);
+});
 
 var i = 0;
 
@@ -60,9 +71,12 @@ do {
 
 // Finding elements
 
-const numFind = numArray.find(function(num) {
-    return num == 1;
-});
+// const numFind = numArray.find(function(num) {
+//     return num == 1;
+// });
+
+const numFind = numArray.find((num) =>  num == 1 );
+
 // null or undefined
 console.log(numFind);
 
@@ -93,7 +107,7 @@ console.log(numArray);
 
 // Map, convert array to new a new form
 //[1,2,3,4,5,6,7,8,9,10]
-var mappedArray = numArray.map(function(num) {
+var mappedArray = numArray.map((num) => {
     if(num % 2 == 0) {
         return num + "_even";
     } else {

@@ -1,94 +1,96 @@
 <html>
-	
-			
-	<head>
-		<!-- Additional or extra information about our page -->
-		
-		<title> Login </title>
-		<style>
-			.login-container {
-				height: 100vh;
-				width: 100vw;
-				background-color: #aeaeae;
-				position: relative;
-			}
-			
-			.login-form {
-				height: 400px;
-				width: 350px;
-				background-color: white;
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				padding: 20px;
-				border-radius: 10px;
-			}
-			
-			.my-input {
-				border: none;
-				outline: none;
-				background: none;
-				border-bottom: 1px solid black;
-				height: 50px;
-				width: 100%;
-				color: darkblue;
-				margin-bottom: 20px;
-				font-size:20px;
-			}
-			
-			.login-btn {
-				width: 300px;
-				background-color: darkblue;
-				color: white;
-				padding:20px;
-				border-color: darkblue;
-				border-radius: 10px;
-				font-size: 20px;
-				cursor: pointer;
-			}
-			
-			.login-btn:hover {
-				width: 350px;
-				background-color: darkblue;
-				color: yellow;
-			}
-		
-		</style>
-		
-	
-	</head>
-	
-	
-	<body>
-		
-		<div class="login-container">
-			<div class="login-form">
-			
-				<input type="text" placeholder="Username" class="my-input" />
-				
-				<input type="text" placeholder="password" class="my-input" />
-				
-				<button class="login-btn"> Login </button>
-			
-			</div>
-		
-		</div>
-	
-		<script>
-			
-			console.log("test");
-			const name = "test1";
-			var num1 = "test";
-		
-			num1 = 10;
-			
-			num1 = true;
-			
-			num1 = ["test"];
-			console.log(num1);
-		</script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	</body>
+  <head>
+    <!-- Additional or extra information about our page -->
 
+    <title>Login</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .login-container {
+        height: 100vh;
+        width: 100vw;
+        background-color: #aeaeae;
+        position: relative;
+      }
+
+      .login-form {
+        height: 400px;
+        width: 350px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .my-input {
+        border: none;
+        outline: none;
+        background: none;
+        border-bottom: 1px solid black;
+        height: 50px;
+        width: 100%;
+        color: darkblue;
+        margin-bottom: 20px;
+        font-size: 20px;
+      }
+
+      .login-btn {
+        width: 300px;
+        background-color: darkblue;
+        color: white;
+        padding: 20px;
+        border-color: darkblue;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .login-btn:hover {
+        width: 350px;
+        background-color: darkblue;
+        color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="login-container">
+      <div class="login-form">
+        <input
+          id="txtUserName"
+          name="username"
+          type="text"
+          placeholder="Username"
+          class="my-input"
+        />
+
+        <input
+          id="txtPassword"
+          type="text"
+          placeholder="password"
+          class="my-input"
+        />
+
+        <button
+          id="loginBtn"
+          class="login-btn"
+          onclick="onLoginButtonClick()"
+          onmouseenter="onLoginButtonClick()"
+        >
+          Login
+        </button>
+      </div>
+    </div>
+
+    <script src="./script1.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
