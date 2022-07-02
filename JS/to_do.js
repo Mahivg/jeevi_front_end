@@ -1,11 +1,17 @@
-class TodoItem {
+class TodoItem { // POJO, Model class, Entity
     constructor(todoDate, todoContent) {
         this.todoDate = todoDate;
         this.todoContent = todoContent;
     }
 }
 
-var todoList = [];
+var todoList = []; // static data
+
+//
+//
+//
+//
+
 
 function addTodoItem() {
     const todoContent = document.getElementById('toDoTxt').value;
