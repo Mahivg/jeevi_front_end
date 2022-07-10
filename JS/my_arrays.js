@@ -1,4 +1,5 @@
-var numArray = [1,2,3,4,5,6,7,8,9,10];
+function init() {
+    var numArray = [1,2,3,4,5,6,7,8,9,10];
 
 console.log(numArray.length);
 
@@ -117,7 +118,10 @@ var mappedArray = numArray.map((num) => {
 
 console.log(mappedArray);
 
+}
 
+
+init();
 
 
 

@@ -30,7 +30,7 @@ function addTodoItem() {
     </div>
  */
 
-function renderTodoList(todoList) {
+const renderTodoList = (todoList) => {
     const todoListContainer = document.getElementById('todoListContainer');
     todoListContainer.innerHTML = '';
     if(todoList != null && todoList.length > 0) {
