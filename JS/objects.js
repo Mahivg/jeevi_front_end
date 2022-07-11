@@ -49,7 +49,10 @@ function Employee(empId, empName, empJoinYear) {
 }
 // u will get a memory allocated
 var emp1 = new Employee("stud01", "Jeevi", 2016 );
-var emp2 = new Employee("stud02", "Arasu", 2011);
+var emp2 = new Employee("stud01", "Jeevi", 2016);
+
+// emp1 == emp2 => false => comparison on object address
+// JSON.stringfy(emp1) == JSON.stringfy(emp2) => true
 
 console.log(emp1.id);
 console.log(emp2);

@@ -1575,6 +1575,93 @@ In IT we have two face
 
 
 
+	Asyncronous Programming
+	
+		
+	
+	
+	HTTP
+	
+		
+		Backend developers will create an API application interface
+		
+		http:/some.com/api/v1/users => communication through http protocal
+		
+		{
+		
+		}
+		
+		[]
+		
+	HTTP Methods
+		
+		to fetch user details
+		
+		http:/some.com/api/v1/users => GET method => does not contain any object in request 
+						=> they will return data
+		
+		http:/some.com/api/v1/users => POST method => for new user
+		
+				=> Should have a request body 
+				=> receive and add to their database
+				
+		[
+			{ id: 1 , name: jeevi },
+			
+			{ id: 2, name: jackie }
+		]
+		
+		id 
+		
+		name 
+		
+		3, Magesh
+		
+		[ { id: 1 , name: jeevi },			
+			{ id: 2, name: jackie } ,
+			{ id: 3, name: magesh }
+		]
+				
+	
+			
+		http:/some.com/api/v1/users => PUT method => Update
+						=> aslo have body
+		
+		
+		http:/some.com/api/v1/users => delete method
+			no content from request
+			removes a data
+			
+	JavaScript
+	
+		fetch() => window
+		
+		
+		return a promise => Asyncronous
+		
+		
+		fetch('url') => url with GET method
+		
+		fetch('url', data , { headers: { method : 'POST' } }) =>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 
 
